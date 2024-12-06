@@ -11,7 +11,8 @@ import SwiftUI
 struct HarryPotterArchiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreaturesListView()
+                .modelContainer(for: Wizard.self)
         }
     }
 }
