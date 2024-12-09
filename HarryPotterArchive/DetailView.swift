@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DetailView: View {
     let creature: Creature
-    @State private var creatureDetail = CreatureDetail()
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
